@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cache/
+testresults/
+t_screenshots/
+testscreenshots.png
