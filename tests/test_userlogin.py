@@ -22,7 +22,7 @@ def test_valid_login(page:Page,username, password):
     login.textboxpassword(password)
     login.btnlogin()
     
-@pytest.mark.skip()
+# @pytest.mark.skip()
 @pytest.mark.parametrize(
     "username1, password2",
     [
